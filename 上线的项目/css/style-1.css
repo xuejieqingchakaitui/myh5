@@ -1,0 +1,265 @@
+.hide{
+    display: none;
+}
+.page1,.page2,.page3{
+    transition:transform 0.5s
+}
+.page1 {
+    position: absolute;
+    background: url("../img/index_6.png") no-repeat;
+    background-size: cover;
+    z-index: 10;
+}
+
+.page1 img {
+    position: absolute;
+    opacity: 0;
+}
+
+.page1 img:nth-of-type(1) {
+    right: 0;
+    top: -0.14rem;
+    width: 8rem;
+    height: 4.48rem;
+}
+
+.page1 img:nth-of-type(2) {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.page1 img:nth-of-type(3) {
+    left: 1.36rem;
+    top: 7rem;
+    width: 3.8rem;
+    height: 2rem;
+}
+
+.page1 img:nth-of-type(4) {
+    left: 0.2rem;
+    top: 4rem;
+    width: 2.6rem;
+    height: 2.5rem;
+}
+
+.page1 img:nth-of-type(5) {
+    right: -0.1rem;
+    top:3.5rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+#page1 img:nth-of-type(1) {
+    animation: bounceInRight 2s both;
+}
+
+#page1 img:nth-of-type(2) {
+    animation: bounceInUp 3s both;
+}
+
+#page1 img:nth-of-type(4) {
+    animation: zoomIn 1s 1s both;
+}
+
+#page1 img:nth-of-type(5) {
+    animation: rotateInDownRight 1s 2s both;
+}
+
+#page1 img:nth-of-type(3) {
+    animation: zoomIn 1s 3s both;
+}
+
+
+.page2 {
+    background: url("../img/page2_1.jpg") no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+}
+.page2 img{
+    position: absolute;
+}
+.page2 img:nth-of-type(1) {
+    left: 0.3rem;
+    top: 0.3rem;
+    width: 90%;
+    height: 90%;
+}
+
+.page2 img:nth-of-type(2) {
+    right: 0;
+    bottom:0;
+    width: 3.5rem;
+}
+.page2 img:nth-of-type(3) {
+    right: 0;
+    top:0;
+}
+.page2 img:nth-of-type(4) {
+    left: 0;
+    top:0;
+    width: 3.5rem;
+}
+.page2 img:nth-of-type(5) {
+    left: 0;
+    bottom:0;
+}
+
+.page2 .text {
+    display: block;
+    padding: 1rem 0.5rem 0.1rem 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+}
+
+.page2 .text h1 {
+    position: absolute;
+    left: 0.2rem;
+    top: 0.5rem;
+    padding-left: 0.9rem;
+    font-size: 0.4rem;
+
+}
+
+.page2 .text p {
+position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.3rem;
+    padding: 1.5rem 0.5rem 0.1rem 0.5rem;
+
+}
+#page2 .text p{
+    animation: fadeInDown 2s  2s both;
+}
+#page2 img:nth-of-type(1) {
+    animation: rotateInDownLeft 2s both;
+}
+
+#page2 img:nth-of-type(2) {
+    animation: bounceInUp 3s both;
+}
+
+#page2 img:nth-of-type(4) {
+    animation: zoomIn 1s 1s both;
+}
+
+#page2 img:nth-of-type(5) {
+    animation: rotateInDownRight 1s 2s both;
+}
+
+#page2 img:nth-of-type(3) {
+    animation: zoomIn 1s 3s both;
+}
+.page3 {
+    position: absolute;
+    background: url("../img/page2_1.jpg") no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.page3 img {
+    position: absolute;
+}
+.page3 img:nth-of-type(1) {
+    left: 0.2rem;
+    top: 0;
+    width: 2rem;
+    height: 3rem;
+}
+.page3 img:nth-of-type(2) {
+    right: 0.3rem;
+    top: 1.5rem;
+}
+.page3 img:nth-of-type(3) {
+    left: 1.2rem;
+    bottom: 0.3rem;
+    width: 3.5rem;
+}
+.page3 img:nth-of-type(4) {
+    left: 0.5rem;
+    top: 3.5rem;
+    width: 30%;
+}
+.page3 img:nth-of-type(5) {
+    left: 0.3rem;
+    top: 3rem;
+    width: 2.9rem;
+    height: 3.3rem;
+}
+.page3 img:nth-of-type(6) {
+    right: 0.3rem;
+    top: 4.05rem;
+    width: 50%;
+}
+.page3 img:nth-of-type(7) {
+    right: 0.2rem;
+    top: 3.6rem;
+    width: 4rem;
+    height: 3.3rem;
+}
+.page3 img:nth-of-type(8) {
+    left: 1.2rem;
+    top: 30em;
+    width: 4rem;
+}
+.page3 img:nth-of-type(9) {
+    left: 1rem;
+    top: 6.8rem;
+    width: 4.4rem;
+    height: 3.3rem;
+}
+.page3 img:nth-of-type(10) {
+    right: 0;
+    bottom: 0;
+    width: 3rem;
+}
+#page3 img:nth-of-type(1) {
+    animation: rotateInDownLeft 2s both;
+}
+#page3 img:nth-of-type(2) {
+    animation: bounceInUp 3s both;
+}
+#page3 img:nth-of-type(3) {
+    animation: zoomInDown 3s both;
+}
+#page3 img:nth-of-type(4) {
+    animation: slideInLeft 2s  both;
+}
+#page3 img:nth-of-type(5) {
+    animation: rotateInUpLeft 2s 1s both;
+}
+#page3 img:nth-of-type(6) {
+    animation: fadeInRightBig 2s both;
+}
+#page3 img:nth-of-type(7) {
+    animation: fadeInRight 2s both;
+}
+#page3 img:nth-of-type(8) {
+      animation: rollIn 2s both;
+  }
+#page3 img:nth-of-type(9) {
+    animation: bounceInUp 2s both;
+}
+.mainBox .music_icon{
+    z-index: 1000;
+    position: fixed;
+    width: 0.93333333rem;
+    height: 0.93333333rem;
+    background: url('../img/music.svg') no-repeat;
+    background-size: contain;
+    right: 0.26666667rem;
+    top: 0.4rem;
+    animation: move123 1s linear infinite;
+    animation-play-state: running;
+}
+@keyframes move123 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

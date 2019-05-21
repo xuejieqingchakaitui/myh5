@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*.hied {*/
+/*  display: none;*/
+/*}*/
+html,
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/beijingtu.jpg);
+}
+.jl {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.jl .music_icon{
+  z-index: 5000;
+  position: fixed;
+  width: 1rem;
+  height: 1rem;
+  background: url('../img/music.svg')no-repeat;
+  right: 0.2rem;
+  top: 0.2rem;
+  background-size: contain;
+  animation: move123 1s linear infinite;
+  animation-play-state: running;
+}
+.jl .jl_first {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  z-index: 10;
+}
+.jl .jl_first .jl_one {
+  width: 100%;
+  height: 100%;
+}
+.jl .jl_first .jl_one .one {
+  position: absolute;
+  left: 0.3rem;
+  bottom: 1.3rem;
+  width: 1.9rem;
+  height: 10rem;
+  animation: bounceInDown 1s both;
+}
+.jl .jl_first .jl_one .two {
+  position: absolute;
+  left: 0.35rem;
+  top: 6.9rem;
+  animation: fadeIn 1s 1s both;
+}
+.jl .jl_first .by_box {
+  width: 100%;
+  height: 100%;
+}
+.jl .jl_first .by_box .by {
+  display: block;
+  width: 2.5rem;
+  height: 5rem;
+  position: absolute;
+  top: 2.25rem;
+  left: 3.9rem;
+  animation: fadeIn 1s 1.5s both;
+}
+.jl .jl_first .by_box .by_list {
+  font-size: 0.4rem;
+  position: absolute;
+  left: 5rem;
+  top: 4.9rem;
+  color: white;
+}
+.jl .jl_first .by_box .by_list li {
+  line-height: 0.6rem;
+  animation: fadeIn 1s 1.8s both;
+}
+.jl .jl_first .img {
+  width: 100%;
+  height: 100%;
+}
+.jl .jl_first .img .hei_img {
+  position: absolute;
+  left: 3.6rem;
+  top: 6.7rem;
+  animation: fadeInLeft 1s 1.9s both;
+}
+.jl .jl_first .img .qingkuang_img {
+  position: absolute;
+  left: 3.6rem;
+  top: 7.9rem;
+  animation: rotateInUpLeft 1s 2s both;
+}
+.jl .jl_first .img .jiantou_img {
+  position: absolute;
+  left: 6.9rem;
+  top: 10.5rem;
+}
+.jl .jl_first .img .bj_img {
+  width: 100%;
+  height: 2.1rem;
+  position: absolute;
+  bottom: 0rem;
+  left: 0rem;
+}
+.jl .jl_twoth {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #ffffff;
+  z-index: 2;
+}
+.jl .jl_twoth .xgsj {
+  height: 100%;
+  width: 100%;
+}
+.jl .jl_twoth .xgsj img {
+  position: absolute;
+  left: 0.6rem;
+  top: 0.6rem;
+  width: 1.6rem;
+  height: 0.7rem;
+  animation: fadeIn 1s 1s both;
+}
+.jl .jl_twoth .xgsj span {
+  position: absolute;
+  left: 0.8rem;
+  top: 0.65rem;
+  font-size: 0.4rem;
+  animation: fadeIn 1s 1.5s both;
+}
+.jl .jl_twoth .sj {
+  height: 100%;
+  width: 100%;
+}
+.jl .jl_twoth .sj img {
+  position: absolute;
+  left: 1rem;
+  top: 1.6rem;
+  width: 2.5rem;
+  height: 3rem;
+  animation: fadeInLeft 1s 2s both;
+}
+.jl .jl_twoth .sj span {
+  position: absolute;
+  width: 1.6rem;
+  height: 3rem;
+  left: 1.3rem;
+  top: 1.9rem;
+  line-height: 0.4rem;
+  font-size: 0.15rem;
+  animation: fadeIn 1s 2.5s both;
+}
+.jl .jl_twoth .dr {
+  height: 100%;
+  width: 100%;
+}
+.jl .jl_twoth .dr img {
+  position: relative;
+  left: 4.5rem;
+  top: 1rem;
+  width: 2.5rem;
+  animation: fadeInRight 1s 3s both;
+}
+.jl .jl_twoth .dr span {
+  position: absolute;
+  width: 1.8rem;
+  height: 3rem;
+  left: 4.9rem;
+  top: 1.3rem;
+  line-height: 0.4rem;
+  font-size: 0.15rem;
+  animation: fadeIn 1s 3.5s both;
+}
+.jl .jl_twoth .ly {
+  height: 100%;
+  width: 100%;
+}
+.jl .jl_twoth .ly img {
+  position: absolute;
+  left: 4.5rem;
+  width: 2.8rem;
+  height: 2.3rem;
+  top: 5.3rem;
+  animation: fadeInRight 1s 4s both;
+}
+.jl .jl_twoth .ly span {
+  position: absolute;
+  width: 2rem;
+  height: 3rem;
+  left: 4.9rem;
+  top: 5.5rem;
+  line-height: 0.4rem;
+  font-size: 0.15rem;
+  animation: fadeIn 1s 4.5s both;
+}
+.jl .jl_twoth .bs {
+  width: 100%;
+  height: 100%;
+}
+.jl .jl_twoth .bs img {
+  position: absolute;
+  left: 1rem;
+  top: 6.6rem;
+  width: 2.5rem;
+  animation: fadeInLeft 1s 5s both;
+}
+.jl .jl_twoth .bs span {
+  position: absolute;
+  width: 1.8rem;
+  height: 3rem;
+  left: 1.3rem;
+  top: 7.6rem;
+  line-height: 0.4rem;
+  font-size: 0.15rem;
+  animation: fadeIn 1s 5.5s both;
+}
+.jl .jl_twoth .xm {
+  width: 100%;
+  height: 100%;
+}
+.jl .jl_twoth .xm img {
+  position: absolute;
+  left: 4.6rem;
+  top: 8.6rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  animation: fadeInRight 1s 6s both;
+}
+.jl .jl_twoth .xm span {
+  position: absolute;
+  width: 1.8rem;
+  height: 3rem;
+  left: 4.9rem;
+  top: 9rem;
+  line-height: 0.4rem;
+  font-size: 0.15rem;
+  animation: fadeIn 1s 6.5s both;
+}
+.jl .jl_twoth img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2.5rem;
+  width: 100%;
+}
+.jl .jl_third {
+  position:absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  z-index: 1;
+}
+.jl .jl_third .zw {
+  height: 100%;
+  width: 100%;
+}
+.jl .jl_third .zw img {
+  position: absolute;
+  left: 0.3rem;
+  top: 0.3rem;
+  width: 2.3rem;
+  animation: fadeIn 1s 1s both;
+}
+.jl .jl_third .zw span {
+  position: absolute;
+  left: 0.7rem;
+  top: 0.35rem;
+  font-size: 0.4rem;
+  animation: fadeIn 1s 1.5s both;
+}
+.jl .jl_third .zw_zhong {
+  position: absolute;
+  left: 0.3rem;
+  top: 1.5rem;
+  font-size: 0.4rem;
+  width: 7rem;
+  animation: fadeIn 1s 2s both;
+}
+.jl .jl_third .zw_daduan {
+  position: absolute;
+  left: 0.3rem;
+  top: 3.5rem;
+  font-size: 0.38rem;
+  width: 7rem;
+  animation: fadeIn 1s 2.5s both;
+}
+.jl .jl_third .zw_wei {
+  height: 100%;
+  width: 100%;
+}
+.jl .jl_third .zw_wei img {
+  position: absolute;
+  left: 0.5rem;
+  top: 8.8rem;
+  width: 7rem;
+  animation: bounceIn 1s 3s both;
+}
+.jl .jl_third .zw_wei .grzy {
+  width: 3.9rem;
+  position: absolute;
+  top: 9.6rem;
+  left: 1.9rem;
+  text-align: center;
+  font-size: 0.3rem;
+  background: white;
+  border-radius: 0.3rem;
+  animation: rollIn 1s 3.5s both;
+}
+.jl .jl_third .zw_wei .grzy span {
+  animation: fadeIn 1s 4s both;
+}
+.jl .jl_third .zw_wei .dzyx {
+  width: 3.9rem;
+  position: absolute;
+  top: 10.2rem;
+  left: 1.9rem;
+  text-align: center;
+  font-size: 0.3rem;
+  background: white;
+  border-radius: 0.3rem;
+  animation: rollIn 1s 4.5s both;
+}
+.jl .jl_third .zw_wei .dzyx span {
+  animation: fadeIn 1s 5s both;
+}
+.jl .jl_third .zw_wei .dh {
+  width: 3.9rem;
+  position: absolute;
+  top: 10.8rem;
+  left: 1.9rem;
+  text-align: center;
+  font-size: 0.3rem;
+  background: white;
+  border-radius: 0.3rem;
+  animation: rollIn 1s 5.5s both;
+}
+.jl .jl_third .zw_wei .dh span {
+  animation: fadeIn 1s 6s both;
+}
+.jl .jl_third img {
+  position: absolute;
+  bottom: 0;
+  left: 0.15rem;
+}
+@keyframes move123 {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
